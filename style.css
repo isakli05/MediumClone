@@ -1,0 +1,157 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.brand,
+a.brand:hover {
+    font-family: 'PT Serif', serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #292929;
+}
+
+.bg-gold {
+    background-color: #FFC017;
+}
+
+.header-border {
+    border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+
+.top-border {
+    border-top: 1px solid rgba(41, 41, 41, 1);
+}
+
+.navbar {
+    height: 75px;
+}
+
+.navbar-nav>.nav-item>.nav-link {
+    font-family: 'Roboto Mono', monospace;
+    color: #292929;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.fixed-bar {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
+    width: 100%;
+}
+
+.trend-artictle-title,
+.trend-artictle-title:hover {
+    font-family: 'Roboto Mono', monospace;
+    color: #292929;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.trend-article-body,
+.trend-article-body:hover {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -.1px;
+    word-spacing: -4px;
+    text-decoration: none;
+    color: #292929;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.list-article-body,
+.list-article-body:hover {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -.1px;
+    word-spacing: -4px;
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 5px;
+}
+
+.list-artictle-title,
+.list-artictle-title:hover {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -.1px;
+    word-spacing: -4px;
+    text-decoration: none;
+    color: #292929;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.middle-border {
+    border-top: 1px solid rgba(230, 230, 230, 1);
+    ;
+}
+
+.badge-gray {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(242, 242, 242, 1);
+    color: rgba(117, 117, 117, 1);
+    font-size: 15px;
+    transition: background-color 300ms ease 0s;
+}
+
+.badge-gray:hover {
+    background-color: rgb(230, 230, 230);
+    color: rgba(117, 117, 117, 1);
+}
+
+.discover-buttons {
+    color: rgba(41, 41, 41, 1);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 0.083em;
+    line-height: 16px;
+}
+
+.btn-discovery {
+    background: transparent;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 3px;
+    color: rgba(117, 117, 117, 1);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.foot-links,
+.foot-links:hover {
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+    font-size: 15px;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .mx-6 {
+        margin-left: 5rem !important;
+        margin-right: 3rem !important;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .mx-xl-7 {
+        margin-left: 16rem !important;
+        margin-right: 6rem !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mt-sm-06 {
+        margin-top:8%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mt-sm-06 {
+        margin-top:4%;
+    }
+}
